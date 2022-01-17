@@ -28,5 +28,6 @@ public class Rotate : MonoBehaviour
         if(dir) longIndex++;
         else longIndex--;
         longIndex = Mathf.Clamp(longIndex, 0, longs.Count - 1);
+        Debug.Log(dir);
     }
 }
